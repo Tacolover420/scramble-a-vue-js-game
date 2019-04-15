@@ -1,6 +1,6 @@
 <template>
   <div id="game-menu" class="game-container">
-      <div class="site-logo"><a href="http://iamkumaran.github.io/" target="_blank"><img src="http://iamkumaran.github.io/img/logo.png" title="Back To My Github Page"/></a></div>
+      <div class="site-logo"><a href="https://github.com/Tacolover420" target="_blank"><img src="https://ibb.co/p4SkL9K" title="Back To TACOS Github Page"/></a></div>
       <div class="logo"><img src="../assets/scramble-logo.png" title="logo" alt="logo"/></div>
       <ol class="options">
         <li v-if="!$store.state.isGameStarted"><button class="btn" v-on:click="initGame">Play</button></li>
